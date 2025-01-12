@@ -106,7 +106,7 @@ body{
     padding: 20px;
     background-color: #ffffff;
     border: 1px solid #ddd;
-    border-radius: 5px;
+    border-radius: 15px;
     text-align: left;
     width: 410px;
 }
@@ -326,6 +326,9 @@ body{
     background-color: #C6E4D6;    
 }
 
+#donation-card-2{
+    background-color: #C6E4D6;
+}
 .custom-donation {
     display: flex;
     justify-content: center;
