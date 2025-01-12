@@ -53,6 +53,10 @@ body{
     color: rgba(0, 0, 0, 0.05);
 }
 
+.banner-content h3{
+    color: rgba(14, 14, 14, 0.5);
+}
+
 .banner-content p {
     font-size: 1.2rem;
     margin-bottom: 20px;
@@ -68,6 +72,10 @@ body{
     cursor: pointer;
     font-size: 1.125rem;
     font-weight: 600;
+}
+
+.explore-btn:hover{
+    background-color: #005f56;
 }
 
 .banner-image img {
@@ -138,14 +146,28 @@ body{
     cursor: pointer;
     font-weight: 600
 }
+
 #vision-card-1 button{
     background-color: #5490F5;
+}
+
+#vision-card-1 button:hover{
+    background-color: #4179D6;
 }
 #vision-card-2 button{
     background-color: #09A15C;
 }
+
+#vision-card-2 button:hover{
+    background-color: #078C4B;
+}
+
 #vision-card-3 button{
     background-color: #FFC239;
+}
+
+#vision-card-3 button:hover{
+    background-color: #D68A2C;
 }
 
 .news {
@@ -333,7 +355,7 @@ body{
 }
 
 .custom-donation .donate-btn:hover {
-    background-color: #1b5e20;
+    background-color: #005f56;
 }
 
 .newsletter {
@@ -383,7 +405,7 @@ body{
 }
 
 .subscribe-btn:hover {
-    background-color: #1b5e20;
+    background-color: #005f56;
 }
 
 footer {
