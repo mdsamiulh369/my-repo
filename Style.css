@@ -1,0 +1,397 @@
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    margin-top: 0px;
+    box-sizing: border-box;
+    background-color: #F1F1F3;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.sign-in-btn {
+    padding: 10px 20px;
+    background-color: #F5F5F5;
+    color: #006A50;
+    /* border-color: #006A50; */
+    border: 2px solid #006A50;
+    border-radius: 8px;
+    cursor: pointer;
+
+    
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C6E4D6;
+    padding: 50px;
+    border-radius: 25px;    
+}
+
+.banner-content {
+    width: 50%;
+}
+
+.banner-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #0E0E0E;
+}
+.banner-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    color: rgba(0, 0, 0, 0.05);
+}
+
+.banner-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #004d40;
+}
+
+.explore-btn {
+    padding: 10px 30px;
+    background-color: #006A50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.banner-image img {
+    width: 400px;
+    height: auto;
+}
+.vision {
+    padding: 50px;
+    background-color: #F1F1F3;
+    text-align: left;
+}
+
+.vision h2 {
+    margin-bottom: 30px;
+    color:#0E0E0E;    
+}
+
+.vision p{
+    color: #0E0E0EB3;
+}
+
+.vision-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.vision-card {
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: left;
+    width: 410px;
+}
+
+.vision-card img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.vision-card h3 {
+    margin-bottom: 10px;
+    color:#0E0E0ECC;
+}
+
+.vision-card p {
+    margin-bottom: 20px;
+    color: #0E0E0EB3;
+
+}
+
+#vision-card-1{
+    background-color: #5490F533;
+}
+#vision-card-2{
+    background-color: #c6e4d6;
+}
+#vision-card-3{
+    background-color: #f7ebcf;
+}
+
+.vision-card button {
+    padding: 10px 15px;    
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600
+}
+#vision-card-1 button{
+    background-color: #5490F5;
+}
+#vision-card-2 button{
+    background-color: #09A15C;
+}
+#vision-card-3 button{
+    background-color: #FFC239;
+}
+
+.news {
+    padding: 50px;
+    background-color: #F1F1F3;
+    text-align: left;
+}
+
+.news h2 {
+    margin-bottom: 30px;
+    color: #37474f;
+}
+
+.news p{
+    color: rgba(14, 14, 14, 0.7);
+}
+.news-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: column;    
+}
+
+
+.news-card {
+    display: flex;
+    gap: 20px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    padding: 20px;   
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    width: 100% ;
+    
+}
+
+.news-card img {
+    display: block;
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+}
+
+.news-content h3 {
+    margin-bottom: 10px;
+    color: #0E0E0E;
+}
+
+.news-content p {
+    margin-bottom: 20px;
+    color: #455a64;
+}
+
+.news-content button {
+    padding: 10px 15px;
+    background-color: #006A50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.news-content {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 60%;
+    text-align: left;
+}
+
+.news-content h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #000000CC;
+    margin-bottom: 10px;
+}
+
+.news-content p {
+    font-size: 1rem;
+    color: #0E0E0EB3;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.news-details {
+    font-size: 0.9rem;
+    color: #888;
+    display: flex;
+    justify-content: start;
+    margin-bottom: 15px;
+}
+
+.news-details span{
+    padding: 2px;
+}
+
+
+.news-btn {    
+    padding: 10px 30px;
+    background-color: #006A50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    width: auto;
+    margin: auto;
+    ;
+}
+
+.news-btn:hover {
+    background-color: #005f56;
+}
+
+.donate {
+    padding: 50px;    
+    text-align: center;
+}
+
+.donate h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #0E0E0E;
+    font-size: 40px
+}
+
+.donate p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+}
+
+.donations{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.donation-card {
+    padding: 15px 25px;
+    color: #0E0E0E;
+    font-size: 1rem;
+    font-weight: 800;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #FFFFFF;    
+}
+
+.donation-card:hover {
+    background-color: #C6E4D6;    
+}
+
+.custom-donation {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.custom-donation input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 520px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.custom-donation .donate-btn {
+    padding: 10px 20px;
+    background-color: #006A50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.custom-donation .donate-btn:hover {
+    background-color: #1b5e20;
+}
+
+.newsletter {
+    padding: 50px;
+    background-color: #C6E4D6;
+    text-align: center;
+    border-radius: 25px; 
+}
+
+.newsletter h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #0E0E0E;
+}
+
+.newsletter p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #0E0E0E;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+  
+}
+
+.newsletter-form input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.newsletter-form input:focus {
+    border-color: #8bc34a;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(139, 195, 74, 0.5);
+}
+
+.subscribe-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #006A50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.subscribe-btn:hover {
+    background-color: #1b5e20;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
