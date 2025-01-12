@@ -4,6 +4,7 @@ body{
     margin: 50px;
     margin-top: 0px;
     box-sizing: border-box;
+    background-color: #F1F1F3;
 }
 
 
@@ -12,7 +13,6 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #F5F5F5;
 }
 
 .sign-in-btn {
@@ -74,7 +74,7 @@ body{
 }
 .vision {
     padding: 50px;
-    background-color: #f1f8e9;
+    background-color: #F1F1F3;
     text-align: left;
 }
 
@@ -149,7 +149,7 @@ body{
 
 .news {
     padding: 50px;
-    background-color: #ffffff;
+    background-color: #F1F1F3;
     text-align: left;
 }
 
@@ -158,11 +158,14 @@ body{
     color: #37474f;
 }
 
+.news p{
+    color: rgba(14, 14, 14, 0.7);
+}
 .news-container {
     display: flex;
     gap: 20px;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column;    
 }
 
 
@@ -170,7 +173,7 @@ body{
     display: flex;
     gap: 20px;
     border: 1px solid #ddd;
-    border-radius: 5px;
+    border-radius: 25px;
     padding: 20px;   
     background-color: #ffffff;
     border: 1px solid #ddd;
@@ -292,9 +295,9 @@ body{
     font-size: 1rem;
     font-weight: 800;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
-    
+    background-color: #FFFFFF;    
 }
 
 .donation-card:hover {
@@ -304,7 +307,8 @@ body{
 .custom-donation {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    flex-direction: column;
+    align-items: center;
     margin-top: 20px;
 }
 
@@ -313,23 +317,23 @@ body{
     font-size: 1rem;
     border: 1px solid #ccc;
     border-radius: 5px;
-    width: 250px;
+    width: 520px;
+    margin-bottom: 15px;
+    text-align: center;
 }
 
 .custom-donation .donate-btn {
     padding: 10px 20px;
-    background-color: #2e7d32;
+    background-color: #006A50;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 1rem;
-    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .custom-donation .donate-btn:hover {
     background-color: #1b5e20;
-    transform: scale(1.05);
 }
 
 .newsletter {
@@ -383,53 +387,7 @@ body{
 }
 
 .subscribe-btn:hover {
-    background-color: #33691e;
-    transform: scale(1.05);
-}
-
-    position: relative;
-    padding: 50px;
-    background-color: #f9fbe7;
-    text-align: center;
-    font-family: 'Georgia', serif;
-    color: #4e342e;
-    border-top: 5px solid #c5e1a5;
-    border-bottom: 5px solid #c5e1a5;
-    overflow: hidden;
-}
-
-.quote::before {
-    content: "“";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 200px;
-    font-weight: bold;
-    color: rgba(0, 0, 0, 0.05); /* Light watermark effect */
-    z-index: 0;
-    pointer-events: none;
-}
-
-.quote-content {
-    position: relative;
-    z-index: 1;
-}
-
-blockquote {
-    font-size: 1.8rem;
-    font-style: italic;
-    margin-bottom: 20px;
-    line-height: 1.6;
-    color: #3e2723;
-    max-width: 700px;
-    margin: 0 auto 20px;
-}
-
-.quote-author {
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #6d4c41;
+    background-color: #1b5e20;
 }
 
 footer {
