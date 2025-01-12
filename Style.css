@@ -391,7 +391,7 @@ body{
     padding: 10px;
     font-size: 1rem;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 5px 0 0 5px;
     width: 300px;
     padding-left: 30px;
 }
@@ -402,7 +402,7 @@ body{
     background-color: #006A50;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 0 5px 5px 0;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
