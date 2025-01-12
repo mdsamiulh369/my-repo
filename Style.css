@@ -228,6 +228,11 @@ blockquote {
 .latest-updates {
     display: left;
     text-align: left;
+    margin: 2%;
+}
+
+.latest-updates p{
+    color: rgba(14, 14, 14, 0.7);
 }
 
 .latest-updates h2 {
