@@ -1,8 +1,8 @@
 
-body {
+body{
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 50px;
+    margin-top: 0px;
     box-sizing: border-box;
 }
 
@@ -33,7 +33,7 @@ body {
     align-items: center;
     background-color: #C6E4D6;
     padding: 50px;
-    border-radius: 25px; 
+    border-radius: 25px;    
 }
 
 .banner-content {
@@ -165,18 +165,25 @@ body {
     flex-direction: column;
 }
 
+
 .news-card {
     display: flex;
     gap: 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
-    padding: 20px;
-    align-items: center;
-    width: 400px;
+    padding: 20px;   
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    width: 100% ;
+    
 }
 
 .news-card img {
-    width: 100px;       
+    display: block;
+    width: 40%;
+    height: auto;
+    object-fit: cover;
 }
 
 .news-content h3 {
@@ -198,108 +205,17 @@ body {
     cursor: pointer;
 }
 
-.opinion {
-    padding: 50px;
-    background-color: #f4f8fb;
-    text-align: center;
-}
-
-.opinion h2 {
-    margin-bottom: 30px;
-    font-size: 2rem;
-    color: #333;
-}
-
-.opinion-table {
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
-    border-collapse: collapse;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-.opinion-table thead th {
-    background-color: #00796b;
-    color: white;
-    padding: 15px;
-    font-size: 1.2rem;
-}
-
-.opinion-table tbody td {
-    padding: 15px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-    font-size: 1rem;
-    color: #555;
-}
-
-.opinion-table tbody tr:last-child td {
-    border-bottom: none;
-}
-
-.opinion-btn {
-    padding: 10px 20px;
-    background-color: #00796b;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1rem;
-    transition: background-color 0.3s ease;
-}
-
-.opinion-btn:hover {
-    background-color: #005f56;
-}
-
-.news {
-    padding: 50px;
-    background-color: #f9f9f9;
-    text-align: center;
-    }
-
-.news h2 {
-    margin-bottom: 30px;
-    font-size: 2rem;
-    color: #333;    
-}
-
-.news-container {
-    display: flex;    
-    gap: 20px;
-    justify-content: center;
-}
-
-.news-card {
-    background-color: #ffffff;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+.news-content {
+    padding: 0 20px;
     display: flex;
     flex-direction: column;
-}
-
-.news-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
-}
-
-.news-card img {
-    width: 100%;
-    height: auto;
-}
-
-.news-content {
-    padding: 20px;
+    justify-content: flex-start;
+    width: 60%;
     text-align: left;
 }
 
 .news-content h3 {
+    margin-top: 0;
     font-size: 1.5rem;
     color: #000000CC;
     margin-bottom: 10px;
@@ -316,16 +232,16 @@ body {
     font-size: 0.9rem;
     color: #888;
     display: flex;
-    justify-content:left;
+    justify-content: start;
     margin-bottom: 15px;
 }
 
 .news-details span{
-    padding: 5px;
+    padding: 2px;
 }
 
 
-.news-btn {
+.news-btn {    
     padding: 10px 30px;
     background-color: #006A50;
     color: white;
@@ -334,7 +250,10 @@ body {
     cursor: pointer;
     font-size: 1rem;
     text-align: center;
-    transition: background-color 0.3s ease;    
+    transition: background-color 0.3s ease;
+    width: auto;
+    margin: auto;
+    ;
 }
 
 .news-btn:hover {
@@ -342,24 +261,25 @@ body {
 }
 
 .donate {
-    padding: 50px;
-    background-color: #e8f5e9;
+    padding: 50px;    
     text-align: center;
 }
 
 .donate h2 {
     font-size: 2rem;
     margin-bottom: 15px;
-    color: #2e7d32;
+    color: #0E0E0E;
+    font-size: 40px
 }
 
 .donate p {
     font-size: 1.2rem;
     margin-bottom: 30px;
-    color: #388e3c;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
 }
 
-.donation-options {
+.donations{
     display: flex;
     justify-content: center;
     gap: 15px;
@@ -368,18 +288,17 @@ body {
 
 .donation-card {
     padding: 15px 25px;
-    background-color: #4caf50;
-    color: white;
+    color: #0E0E0E;
     font-size: 1rem;
+    font-weight: 800;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.3s ease;
+    
 }
 
 .donation-card:hover {
-    background-color: #388e3c;
-    transform: scale(1.05);
+    background-color: #C6E4D6;    
 }
 
 .custom-donation {
